@@ -3,7 +3,7 @@ import { create } from "zustand";
 import { axiosInstance } from "../lib/axios";
 import { io } from "socket.io-client";
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://chat-app-backend-5ryx.onrender.com";
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
